@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin_manifest>
-	<field key="author" value="German Bortoli & Diego Gallardo developed for Keetup Development" />
+	<field key="author" value="German Bortoli and Diego Gallardo developed for Keetup Development" />
 	<field key="version" value="0.1" />
 	<field key="description" value="Development tool and profiler integration for elgg" />
 	<field key="website" value="http://www.keetup.com/" />

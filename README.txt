@@ -1,4 +1,7 @@
-elgg_profiler v0.1
+=== elgg_profiler v0.1 ===
+
+==== Developers: Diego Gallardo & Bortoli German ====
+
 Copyright (c) 2010 Keetup Development
 
 This program is free software; you can redistribute it and/or modify

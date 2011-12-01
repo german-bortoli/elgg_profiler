@@ -1,0 +1,25 @@
+<?php
+/**
+* elgg_profiler
+*
+* @author German Bortoli & Diego Gallardo
+* @link http://community.elgg.org/pg/profile/pedroprez
+* @copyright (c) Keetup 2010
+* @link http://www.keetup.com/
+* @license GNU General Public License (GPL) version 2
+*/
+
+/*** Example code ***/
+/*
+?>
+<p>
+	<?php echo elgg_echo('elgg_profiler:show'); ?>
+	<select name="params[show]">
+		<option value="yes" <?php if ($vars['entity']->show == 'yes') echo " selected=\"yes\" "; ?>><?php echo elgg_echo('option:yes'); ?></option>
+		<option value="no" <?php if ($vars['entity']->show != 'yes') echo " selected=\"yes\" "; ?>><?php echo elgg_echo('option:no'); ?></option>
+	</select>
+</p>
+<?php 
+*/
+/*** Example code ***/
+?>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest>
+	<field key="author" value="German Bortoli & Diego Gallardo developed for Keetup Development" />
+	<field key="version" value="0.1" />
+	<field key="description" value="Development tool and profiler integration for elgg" />
+	<field key="website" value="http://www.keetup.com/" />
+	<field key="copyright" value="(C) Keetup 2010" />
+	<field key="licence" value="GNU Public License version 2" />
+	<field key="elgg_version" value="2010030101" />
+</plugin_manifest>

@@ -1,0 +1,18 @@
+MAIN DEVELOPER
+
+Pedro Prez <pedroprez@keetup.com>
+http://twitter.com/pedroprez
+
+CONTRIBUTING DEVELOPERS
+
+Diego Gallardo <dgallardo@keetup.com>
+http://twitter.com/demege
+
+CONTRIBUTING TRANSLATORS
+
+Gustavo Bellino <gustavobellino@keetup.com>
+http://twitter.com/gushbellino
+
+THANKS
+Thanks to Keetup Development <http://www.keetup.com/> for allowing to publish this plugin.
+http://twitter.com/keetup_com

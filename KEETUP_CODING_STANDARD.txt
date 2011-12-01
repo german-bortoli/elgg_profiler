@@ -1,0 +1,63 @@
+------------------------------
+Structure folder conventions
+------------------------------
+
+actions/		 			//Carpeta de Acciones
+        action_a.php     	//Nomenclatura de las acciones
+        
+admin/                   	//Carpeta de administrador, donde se alojan los controladores de las configuracion del admin.
+
+classes/		 			//Carpeta de archivos con las clases (m—delo)
+        MyClass.php      	//Nombre del archivo de modelo igual a el nombre de la clase.
+        
+crons/                    	//Carpeta con CRONs
+
+docs/			 			//Carpeta de archivo con documentaci—n b‡sica
+	examples/				//Ejemplos de implemantacion del modelo
+	code/					//Carpeta donde se genera la documentaci—n en base al c—digo.
+	tests/					//Carpeta con los casos de prueba
+	use_cases/				//Carpeta con los casos de usos
+
+endpoint/		 			//Carpeta de archivos de llamadas ajax
+	myclass_ajax.php 		//Archivo especifico con funciones que no entran en el modelo pero que estan altamente relacionados.
+	
+graphics/		 			//Carpeta de elementos graficos
+
+languages/		 			//Carpeta de lenguage
+
+lib/ 			 			//Carpeta de librerias propias del plugin, incluye clases y otras librerias propias.
+	main.php         		//Archivo que contiene todas las rutinas b‡sicas del m—dulo.
+	myclass_lib.php  		//Archivo especifico con funciones que no entran en el modelo pero que estan altamente relacionados.
+	
+pages/ 	                 	//Carpeta de controladores
+        pages_p.php      	//Nomenclatura de los controladores
+        
+scripts/		 			//Carpeta con scripts que sean necesario ejecutar para el funcionamiento del plugin.
+
+tests/			 			//Test unitarios del del modelo.
+
+vendors/ 		 			//Carpeta con librerias externas de uso en el plugin
+	plugin/ 	 			//Carpeta de libreria de ping.
+    	      ping.php
+              plugin.php
+              
+views/ 			 			//Carpeta de vistas
+
+CONTRIBUTORS.txt
+LICENSE.txt
+manifest.xml
+README.txt
+start.php
+version.php
+
+
+------------------------------
+Coding standard file name
+------------------------------
+
+nombrearchivo_a.php    //para las acciones
+nombrearchivo_p.php    //para los controladores/paginas
+nombrearchivo_m.php    //para el modelo
+nombrearchivo_lib.php  //para las l’brerias especificas
+nombrearchivo_ajax.php //para los archivos que esten dentro del endpoint que trabajan con acciones ajax
+nombrearchivo.php      //para las vistas

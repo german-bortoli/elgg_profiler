@@ -10,6 +10,8 @@
 */
 
 require_once(dirname(__FILE__) . '/vendors/plugin/plugin.php');
+require_once(dirname(__FILE__) . '/vendors/pqp/classes/PhpQuickProfiler.php');
+require_once(dirname(__FILE__). '/classes/ProfilerClass.php');
 
 function elgg_profiler_init() {
 	//Initializate the plugin
@@ -17,6 +19,8 @@ function elgg_profiler_init() {
 			
 	//Page Handler
 	register_page_handler('elgg_profiler','elgg_profiler_page_handler');
+	$pqp = new PQPExample();
+$pqp->init();
 }
 
 function elgg_profiler_page_handler($page) {

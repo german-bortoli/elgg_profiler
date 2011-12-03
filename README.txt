@@ -1,5 +1,5 @@
 === elgg_profiler v0.1 ===
-
+This is in development status
 ==== Developers: Diego Gallardo & Bortoli German ====
 
 Copyright (c) 2010 Keetup Development

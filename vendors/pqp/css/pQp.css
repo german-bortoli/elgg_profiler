@@ -279,9 +279,12 @@
 .pQp .log-speed td.type{
 	background:#2B5481 !important;
 }
-
+.pQp pre {
+     background-color: #000;
+}
 .pQp .log-log pre{
 	color:#999;
+       
 }
 .pQp .log-log td:hover pre{
 	color:#fff;

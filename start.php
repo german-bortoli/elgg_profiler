@@ -19,7 +19,10 @@ function elgg_profiler_init() {
     //Page Handler
 //    register_page_handler('elgg_profiler', 'elgg_profiler_page_handler');
     elgg_extend_view('footer/analytics', 'elgg_profiler/profiler_footer');
-    elgg_register_css('profiler.css', 'mod/elgg_profiler/vendors/pqp/css/pQp.css');
+//    elgg_register_css('profiler.css', 'mod/elgg_profiler/vendors/pqp/css/pQp.css');
+	
+	elgg_register_css('profiler.css', elgg_get_simplecache_url('css', 'profiler'));
+	elgg_register_simplecache_view('css/profiler');
 }
 
 //function elgg_profiler_page_handler($page) {
